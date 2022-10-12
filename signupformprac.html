@@ -1,7 +1,9 @@
 <!-- HTML IS USED TO CREATE CONTROLS -->
 <html>
 
-    <head> </head>
+    <head> 
+      <link rel="stylesheet" href="signuplive.css">
+    </head>
     <body>
         <!-- Body contains all the controls for graphical user interface -->
         <h1>Please Sign up </h1>
@@ -11,47 +13,111 @@
         <h5>Please Sign up </h5>
         <h6>Please Sign up </h6>
          -->
-   <form > 
-        <label>Please Enter Your Name:</label>
-        <input type="text"/>
-        <br/>
-        <label>Please Enter Your Email:</label>
-        <input type="email"/>
-        <br/>
-          <label>Please Enter Your password:</label>
-        <input type="password"/> 
-        <br/>
-        <label>Please Enter Your Telephone Number:</label>
-        <input type="tel"/> 
-        <br/>
-        <label>Please Enter Your Date of Birth:</label>
-        <input type="date"/> 
-        <br/>
-        <label>Please select Your Gender:</label>
-        <input type="radio" name="gender"/> <label >Male</label>
-        <input type="radio" name="gender"/> <label> Female</label>
-        <br/>
-        <label>Please Enter Your User Name :</label>
-        <input type="text"/>
-        <br/>
-        <label>Please Enter your address:</label>
-        <textarea cols="30" rows="3"></textarea>
-        <br/>
-        <label>Please select your country:</label>
-        <select >
-          <option value="1">Bangladesh</option>
-          <option value="2">india</option>
-          <option value="3">japan</option>
-          <option value="4">africa</option>
-          <option value="5">canada</option>
-          <option value="6">America</option>
-          <option value="7">korea</option>
-          <option value="8">pakistan</option>
-          <option value="9">srilanka</option>
-          <option value="10">portugal</option>
+  <div>
+       <form > 
+    <label>Please Enter Your Name:</label>
+    <input class="form-control" type="text"/>
+    <br/>
+    <label>Please Enter Your Email:</label>
+    <input type="email"/>
+    <br/>
+      <label>Please Enter Your password:</label>
+    <input type="password"/> 
+    <br/>
+    <label>Please Enter Your Telephone Number:</label>
+    <input type="tel"/> 
+    <br/>
+    <label>Please Enter Your Date of Birth:</label>
+    <input type="date"/> 
+    <br/>
+    <label>Please select Your Gender:</label>
+    <input class="radio" type="radio" name="gender"/> <label >Male</label>
+    <input class="radio"type="radio" name="gender"/> <label> Female</label>
+    <br/>
+    <label>Please Enter Your User Name :</label>
+    <input type="text"/>
+    <br/>
+    <label>Please Enter your address:</label>
+    <textarea cols="30" rows="3"></textarea>
+    <br/>
+    <label>Please select your country:</label>
+    <select >
+      <option value="1">Bangladesh</option>
+      <option value="2">india</option>
+      <option value="3">japan</option>
+      <option value="4">africa</option>
+      <option value="5">canada</option>
+      <option value="6">America</option>
+      <option value="7">korea</option>
+      <option value="8">pakistan</option>
+      <option value="9">srilanka</option>
+      <option value="10">portugal</option>
 
-        </select>
-        
-   </form>
-    </body>
+    </select>
+    <!-- submi button will inform all the data to server -->
+     <!--  button will not inform all the data to server it will work internally -->
+     <input type="submit"  value="submit"/> <br/>
+     <input type="button" value="Button">
+     <button class="btn-signup">signup</button>
+    
+    
+</form>
+</div>       
+  
+   <div> 
+ something else
+   </div>
+   <span> this is a line 1</span>
+   <span> this is a line 2</span>
+   <span> this is a line 3</span>
+   <span> this is a line 4</span>
+   <div>Another division</div>
+   <!-- anchor tag  -->
+   <!-- hyper link refference  -->
+   <a href="https://www.google.com/search?g"> Google</a>
+   <img src="https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg"/>
+    
+   <ol type="a" start="5" reversed>
+    <li> <img src="https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg"/></li><img src="https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg"/>
+    <li>java </li>
+    <li>c#</li>
+    <li>java script </li>
+    <li>phython </li>
+    <li>mongo db </li>
+   </ol>
+   <ol type="i" start="10">
+    <li>java </li>
+    <li>c#</li>
+    <li>java script </li>
+    <li>phython </li>
+    <li>mongo db </li>
+  </ol>
+  <ol type="1" start="100" reversed>
+    <li>java </li>
+    <li>c#</li>
+    <li>java script </li>
+    <li>phython </li>
+    <li>mongo db </li>
+  </ol>
+    
+    
+    <ul>
+      <li> <a href="https://www.google.com/search?g"> Google</a></li>
+      <img src="https://assets2.razerzone.com/images/pnx.assets/618c0b65424070a1017a7168ea1b6337/razer-wallpapers-page-hero-mobile.jpg"/>
+      <br/>
+      <li>phython </li>
+      <br/>
+     <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoddOvLFaQB8Q7pegmrcQCwptNWfOpGnxqVyVB8n5b&s" alt="wallpaper"></li> 
+      <li>mongo db </li>
+      <br/>
+      <li>java script </li>
+      <li> <img src="https://w0.peakpx.com/wallpaper/583/455/HD-wallpaper-javascript-bts-coding-kod-kodlama-code-phone-lock-logo-locked.jpg" alt="wallpaper "></li>
+      <li>phython </li>
+      <li>mongo db </li>
+
+    </ul>
+     
+    
+  
+  </body>
 </html>

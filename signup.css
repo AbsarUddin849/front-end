@@ -1,0 +1,17 @@
+
+#formcontainer{
+    background-color: aqua;
+}
+#footer{
+    background-color: blueviolet;
+}
+span{
+    color:purple;
+}
+.text-wraper{
+    border:1px solid red;
+}
+*{
+    color: brown;
+    background-color: aqua;
+}
